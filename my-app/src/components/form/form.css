@@ -2,13 +2,12 @@
 
 
 .custom-form{
-    color: #1e40af;
+    color: #ce0e2d;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;   
     width: 400px;
-    max-width: 90%;
     height: 500px;
     max-height: 80%;
     background: linear-gradient(to right,#edfdff,#cffafe);
@@ -18,10 +17,12 @@
 }
 
 .custom-form div{
-    justify-content: center;
-    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
     width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
 }
 
 h3{
@@ -30,21 +31,34 @@ h3{
     font-size:30px;
     left: 65px;
     bottom: 5px;
-    color: #1e40af;
+    color: #ce0e2d;
     text-decoration: underline;
 }
 
 img{
-    width: 50px;
-    margin-bottom: 25px;
+    width: 100px;
     transition: 1s all;
+    border-radius: 15px;
+    display: flex;
 }
 
 img:hover{
-    width: 70px;
-    transform: rotate(360deg);
+    width: 120px;
+    box-shadow: #ce0e2d 0px 5px 30px 1px;
+    padding: 10px;
 }
 
 h1{
     font-size: 25px;
+}
+
+h4{
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 400;
 }

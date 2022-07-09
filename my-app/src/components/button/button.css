@@ -5,8 +5,8 @@ button{
     color: black;
     background-color: transparent;
     border-radius: 10px;
-    border: 1px solid #1e40af;
-    color: #1e40af;
+    border: 2px solid #ce0e2d;
+    color: #ce0e2d;
     font-weight: 600;
     transition: 1s all;
 }
@@ -15,7 +15,7 @@ button:hover{
     font-size: 105%;
     width: 105px;
     height: 35px;
-    background-color: #1e40af;
+    background-color: #ce0e2d;
     color: white;
     border: 1px solid white;
 }

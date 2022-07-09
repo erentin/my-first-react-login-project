@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import propTypes from "prop-types"  
 import "./input.css"
 
-const Input  = ({placeholder,text}) => {
+const Input  = ({placeholder,text,type,inputChanges}) => {
+
+
+
+   
     return(
-        <input className="custom-input" placeholder={placeholder} value={text}></input>
+        <input className="custom-input" placeholder={placeholder} value={text} type={type} onChange={inputChanges}></input>
     )
 }
 
